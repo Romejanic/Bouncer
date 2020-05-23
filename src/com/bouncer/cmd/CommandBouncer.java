@@ -21,6 +21,7 @@ public class CommandBouncer implements CommandExecutor {
 
 	private final String[] subCommands = { "help", "version", "reload" };
 	private final String[] commands = {
+		"bouncer",
 		"kick",
 		"ban",
 		"ban-ip",

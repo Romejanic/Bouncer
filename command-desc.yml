@@ -1,6 +1,7 @@
 help: Lists all Bouncer commands
 version: Gets current version info
 reload: Reloads the plugin config
+bouncer: View plugin version and reload config
 kick: Kicks a player off the server
 ban: Bans a player by their username
 ban-ip: Bans a player by their IP address
