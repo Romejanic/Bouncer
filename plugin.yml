@@ -4,3 +4,9 @@ version: 1.0.0
 description: Manage kicking, banning and lockout of users
 
 main: com.bouncer.Bouncer
+api-version: 1.15
+
+commands:
+    bouncer:
+        description: Base command for Bouncer
+        usage: /bouncer ...
