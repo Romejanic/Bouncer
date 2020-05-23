@@ -32,4 +32,12 @@ public class Utils {
 		return sb.toString();
 	}
 	
+	public static int safeParseInt(String in, int def) {
+		try {
+			return Integer.parseInt(in);
+		} catch(NumberFormatException e) {
+			return def;
+		}
+	}
+	
 }

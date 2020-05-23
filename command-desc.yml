@@ -1,0 +1,16 @@
+help: Lists all Bouncer commands
+version: Gets current version info
+reload: Reloads the plugin config
+kick: Kicks a player off the server
+ban: Bans a player by their username
+ban-ip: Bans a player by their IP address
+tempban: Temporarily bans a player
+mute: Mutes a player from speaking
+tempmute: Temporarily mutes a player
+pardon: Unbans a player
+pardon-ip: Unbans an IP address
+unmute: Unmutes a player
+banlist: Lists all banned players
+baniplist: Lists all banned IP addresses
+mutelist: Lists all muted players
+lockout: Configure the server's lockout

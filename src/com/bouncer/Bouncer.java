@@ -11,7 +11,7 @@ public class Bouncer extends JavaPlugin {
 	@Override
 	public void onEnable() {
 		instance = this;
-		getCommand("bouncer").setExecutor(new CommandBouncer());
+		getCommand("bouncer").setExecutor(new CommandBouncer(this));
 		
 		getLogger().info("Started up Bouncer!");
 	}
