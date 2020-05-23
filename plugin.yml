@@ -1,0 +1,6 @@
+name: Bouncer
+author: Romejanic
+version: 1.0.0
+description: Manage kicking, banning and lockout of users
+
+main: com.bouncer.Bouncer
