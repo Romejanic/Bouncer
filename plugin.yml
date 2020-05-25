@@ -10,3 +10,6 @@ commands:
     bouncer:
         description: Base command for Bouncer
         usage: /bouncer ...
+    lockout:
+        description: Configure the server's lockout
+        usage: /lockout ...

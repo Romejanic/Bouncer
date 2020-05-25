@@ -3,6 +3,7 @@ package com.bouncer;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import com.bouncer.cmd.CommandBouncer;
+import com.bouncer.cmd.CommandLockout;
 import com.bouncer.util.Metrics;
 
 public class Bouncer extends JavaPlugin {
@@ -18,7 +19,9 @@ public class Bouncer extends JavaPlugin {
 	public void onEnable() {
 		instance = this;
 		this.metrics = new Metrics(this, BSTATS_PLUGIN_ID);
+		
 		getCommand("bouncer").setExecutor(new CommandBouncer(this));
+		getCommand("lockout").setExecutor(new CommandLockout());
 		
 		getLogger().info("Started up Bouncer!");
 	}
